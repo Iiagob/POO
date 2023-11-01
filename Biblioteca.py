@@ -9,11 +9,7 @@ class Pessoa:
 
     def comer(self):
         if self.comendo == True:
-            input("Deseja parar de comer (s/n)")
-            if self.comendo == "s":
-                print("Parou de comer")
-            else:
-                print(f"{self.nome} não pode comer porque já está comendo")
+            print(f"{self.nome} não pode comer porque já está comendo")
         elif self.dormindo==True:
             print(f"{self.nome} não pode comer porque  esta dormindo")
         elif self.falando == True:
